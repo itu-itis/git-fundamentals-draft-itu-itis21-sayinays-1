@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+    <title> FORM  </title>	
+</head>
+
+<body>
+    <form oninput="result.value=(parseInt(age.value)*31556952)">
+	<div>
+	    <label>  Name & Surname </label>
+	    <input placeholder="Username">  
+	</div>
+
+	<div>
+	    <label> Student ID </label>
+	    <input placeholder="Student ID">  
+	</div>	
+
+
+	<div>
+	    <label for "ageCal"> Age </label>
+	    <input id="ageCal" type="number" name="age" value="0"/> 
+	    <br/>
+	    You lived almost <output name="result" for="age"> </output> seconds.
+	</div>
+
+	<div>
+	    <label> Birthdate </label>
+	    <input type="date">
+	</div>
+
+	<div>
+	    <label>  Password      </label>
+	    <input type="password" placeholder="Password">
+	</div>
+	    
+	<div>
+	    <label> I read the assignment description well. </label>
+	    <input type="checkbox">	
+	</div>
+
+
+	<div>
+	    <label> Others </label>
+	    <textarea></textarea>
+		
+	</div>
+
+
+	<button  type="reset"> Reset </button>
+	<button>  Submit    </button>
+
+	
+    </form>
+</body>
+</html>
